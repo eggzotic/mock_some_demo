@@ -1,0 +1,15 @@
+{
+    "mockRoutes": [
+        {
+            "method": "GET",
+            "path": "/v3.1/name/Australia?fields=tld",
+            "code": 200,
+            "data": {
+                "tld": [
+                    ".au"
+                ],
+                "mock": true
+            }
+        }
+    ]
+}
